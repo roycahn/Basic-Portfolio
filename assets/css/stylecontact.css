@@ -48,31 +48,12 @@
 }
 
 
-
-div.bioTextAndPhoto {
-    position: relative;
-    margin-top: 60px;
-    margin-left: 10%;
-    background-color: white;
-    width: 600px;
-    height: 600px;
-    padding-top: 30px;
-    padding-left: 35px;
+form{
+	
+	margin-top: 3%;
+	margin-left: 11%;
 }
 
-img{
-	float: left;
-	width: 158px;
-	height: 158px;
-	padding-right: 14px;
-}
-
-.bioText p {
-	position: relative;
-	margin-top:-2px;
-	width: 64%;
-	overflow: auto;
-}
 
 .connectWithMe{
 	color: #4aaaa5;
@@ -81,13 +62,14 @@ img{
     background-color: white;
     padding-left: 35px;
     margin-right: 230px;
-    margin-top: -633px;
+    margin-top: -233px;
     width: 200px;
     height: 135px;
     float: right;
 	
 	
 }
+
 
 .connectWithMe img{
 	width: 50px;
@@ -107,6 +89,7 @@ img{
   	color: white;
   	text-align: center;
   }
+
 
 
 h1 {

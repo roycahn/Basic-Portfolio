@@ -37,7 +37,7 @@
 	right: 0;
 	left: 0;
 	margin-top: 104px;
-	background-image: url("bgroundImage.png");
+	background-image: url("../images/bgroundImage.png");
 	position: absolute;
 	top 130px;
 	height: 938px;
@@ -47,9 +47,27 @@
     border-bottom-style: solid;
 }
 
+.connectWithMe{
+	color: #4aaaa5;
+	position: absolute;
+    margin-left: 134%;
+    background-color: white;
+    padding-left: 35px;
+    margin-right: 230px;
+    margin-top: -112px;
+    width: 200px;
+    height: 135px;
+    float: right;
+}
 
+.mainSection h1 {
+	color: #4aaaa5;
+	border-bottom-color: #777777;
+    border-bottom-style: solid;
+    margin-right: 20px;
+}
 
-div.bioTextAndPhoto {
+div.portfolioArea {
     position: relative;
     margin-top: 60px;
     margin-left: 10%;
@@ -60,34 +78,35 @@ div.bioTextAndPhoto {
     padding-left: 35px;
 }
 
-img{
-	float: left;
-	width: 158px;
-	height: 158px;
-	padding-right: 14px;
-}
-
-.bioText p {
+.portfolioPic {
+	
+	background: url(../images/Flower.jpg);
+	width: 200px;
+	height: 100px;
 	position: relative;
-	margin-top:-2px;
-	width: 64%;
-	overflow: auto;
+	overflow: hidden;
+
 }
 
-.connectWithMe{
-	color: #4aaaa5;
-	position: absolute;
-        margin-left: 68%;
-    background-color: white;
-    padding-left: 35px;
-    margin-right: 230px;
-    margin-top: -633px;
-    width: 200px;
-    height: 135px;
-    float: right;
-	
-	
+
+.portfolioPic > header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
 }
+
+ .portfolioPic > h3{
+ 	background-color: #4aaaa5;
+	color: white;
+ 	margin-top: 68px;
+    text-align: center;
+    background-color: #4aaaa5;
+ }
+
+
+
 
 .connectWithMe img{
 	width: 50px;
@@ -109,8 +128,6 @@ img{
   }
 
 
-h1 {
-	color: #4aaaa5;
-}
+
 
 
